@@ -24,6 +24,27 @@
             ],
             "source": "satisfactionSurvey.csv",
             "target": "preProcess.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df",
+                    "output": "df",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "preProcess.R",
+            "target": "processing_svm.R.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "satisfaction_survey",
+                    "type": "csv"
+                }
+            ],
+            "source": "satisfactionSurvey.csv",
+            "target": "For_RF.R"
         }
     ],
     "nodes": [
@@ -38,8 +59,16 @@
         },
         {
             "name": "plot.png"
+        },
+        {
+            "desc": "",
+            "name": "processing_svm.R.R"
+        },
+        {
+            "desc": "",
+            "name": "For_RF.R"
         }
     ],
-    "updated_at": "2018-10-03 15:54:48",
+    "updated_at": "2018-10-03 19:14:09",
     "url": "https://github.com/fall2018-saltz-test/atishay_deep"
 }
