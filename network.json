@@ -35,6 +35,16 @@
             ],
             "source": "preProcess.R",
             "target": "processing_svm.R.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "satisfaction_survey",
+                    "type": "csv"
+                }
+            ],
+            "source": "satisfactionSurvey.csv",
+            "target": "For_RF.R"
         }
     ],
     "nodes": [
@@ -57,8 +67,11 @@
         {
             "desc": "",
             "name": "For_RF.R"
+        },
+        {
+            "name": "accuracy.txt"
         }
     ],
-    "updated_at": "2018-10-03 19:12:37",
+    "updated_at": "2018-10-03 19:15:32",
     "url": "https://github.com/fall2018-saltz-test/atishay_deep"
 }
