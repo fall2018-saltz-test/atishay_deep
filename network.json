@@ -1,0 +1,60 @@
+{
+    "collaborators": [
+        "yatish2",
+        "test"
+    ],
+    "created_at": "2018-10-03 15:29:35",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "output": "plot",
+                    "type": "png"
+                }
+            ],
+            "source": "preProcess.R",
+            "target": "plot.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "satisfaction_survey",
+                    "type": "csv"
+                }
+            ],
+            "source": "satisfactionSurvey.csv",
+            "target": "preProcess.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df",
+                    "output": "df",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "preProcess.R",
+            "target": "processing_svm.R.R"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "satisfactionSurvey.csv"
+        },
+        {
+            "assigned_to": "not assigned",
+            "desc": "",
+            "name": "preProcess.R",
+            "task_status": "proposed"
+        },
+        {
+            "name": "plot.png"
+        },
+        {
+            "desc": "",
+            "name": "processing_svm.R.R"
+        }
+    ],
+    "updated_at": "2018-10-03 16:02:02",
+    "url": "https://github.com/fall2018-saltz-test/atishay_deep"
+}
