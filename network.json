@@ -35,6 +35,16 @@
             ],
             "source": "preProcess.R",
             "target": "processing_svm.R.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "text1",
+                    "type": "txt"
+                }
+            ],
+            "source": "preProcess.R",
+            "target": "text6105.txt"
         }
     ],
     "nodes": [
@@ -58,6 +68,6 @@
             "name": "text6105.txt"
         }
     ],
-    "updated_at": "2018-10-03 19:10:57",
+    "updated_at": "2018-10-03 19:11:33",
     "url": "https://github.com/fall2018-saltz-test/atishay_deep"
 }
