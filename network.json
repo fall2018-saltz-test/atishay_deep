@@ -45,6 +45,16 @@
             ],
             "source": "satisfactionSurvey.csv",
             "target": "For_RF.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "accuracy",
+                    "type": "txt"
+                }
+            ],
+            "source": "For_RF.R",
+            "target": "accuracy.txt"
         }
     ],
     "nodes": [
@@ -67,8 +77,11 @@
         {
             "desc": "",
             "name": "For_RF.R"
+        },
+        {
+            "name": "accuracy.txt"
         }
     ],
-    "updated_at": "2018-10-03 19:14:09",
+    "updated_at": "2018-10-03 19:15:52",
     "url": "https://github.com/fall2018-saltz-test/atishay_deep"
 }
