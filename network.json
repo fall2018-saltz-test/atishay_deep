@@ -12,8 +12,8 @@
                     "type": "csv"
                 }
             ],
-            "source": "raw_data.csv",
-            "target": "clean.R"
+            "source": "satisfactionSurvey.csv",
+            "target": "preProcess.R"
         },
         {
             "ports": [
@@ -22,21 +22,24 @@
                     "type": "csv"
                 }
             ],
-            "source": "clean.R",
+            "source": "preProcess.R",
             "target": "data.csv"
         }
     ],
     "nodes": [
         {
-            "name": "raw_data.csv"
-        },
-        {
-            "name": "clean.R"
+            "name": "satisfactionSurvey.csv"
         },
         {
             "name": "data.csv"
+        },
+        {
+            "assigned_to": "not assigned",
+            "desc": "",
+            "name": "preProcess.R",
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-10-03 15:29:48",
+    "updated_at": "2018-10-03 15:52:04",
     "url": "https://github.com/fall2018-saltz-test/atishay_deep"
 }
