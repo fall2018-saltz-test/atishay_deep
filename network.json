@@ -8,22 +8,22 @@
         {
             "ports": [
                 {
-                    "input": "raw_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "satisfactionSurvey.csv",
-            "target": "preProcess.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "plot",
                     "type": "png"
                 }
             ],
             "source": "preProcess.R",
             "target": "plot.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "satisfaction_survey",
+                    "type": "csv"
+                }
+            ],
+            "source": "satisfactionSurvey.csv",
+            "target": "preProcess.R"
         }
     ],
     "nodes": [
@@ -40,6 +40,6 @@
             "name": "plot.png"
         }
     ],
-    "updated_at": "2018-10-03 15:53:57",
+    "updated_at": "2018-10-03 15:54:48",
     "url": "https://github.com/fall2018-saltz-test/atishay_deep"
 }
