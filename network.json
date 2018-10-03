@@ -24,6 +24,17 @@
             ],
             "source": "satisfactionSurvey.csv",
             "target": "preProcess.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df",
+                    "output": "df",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "preProcess.R",
+            "target": "processing_svm.R.R"
         }
     ],
     "nodes": [
@@ -38,8 +49,15 @@
         },
         {
             "name": "plot.png"
+        },
+        {
+            "desc": "",
+            "name": "processing_svm.R.R"
+        },
+        {
+            "name": "text6105.txt"
         }
     ],
-    "updated_at": "2018-10-03 15:54:48",
+    "updated_at": "2018-10-03 19:10:57",
     "url": "https://github.com/fall2018-saltz-test/atishay_deep"
 }
