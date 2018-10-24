@@ -79,9 +79,9 @@
             "assigned_to": "test",
             "desc": "",
             "name": "preProcess.R",
-            "task_status": "in progress"
+            "task_status": "not started"
         }
     ],
-    "updated_at": "2018-10-24 15:29:54",
+    "updated_at": "2018-10-24 15:30:23",
     "url": "https://github.com/fall2018-saltz-test/atishay_deep"
 }
